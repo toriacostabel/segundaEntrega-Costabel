@@ -1,0 +1,22 @@
+/*servicios*/
+.serviciosContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 98%;
+    gap: 2%;
+    justify-items: center;
+    align-items: center;
+}
+.servicio{
+    width: 98%;
+    overflow:hidden;
+    margin:1%;
+    padding:10px 0px;
+    border-radius:2%;
+    transition:all .4s ease-in-out;
+    box-shadow:0px 1px 5px 0px rgba(0,0,0,0.3);
+    text-align:center;
+}
+.srvcImgContainer{
+    width: 80%;
+}
