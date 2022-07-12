@@ -117,6 +117,7 @@
     line-height: 22px;
     text-align: center;
     justify-content: center;
+    font-size: 20px;
 }
 /*--------------------quien soy-----------------*/
 .quienSoyTitulo{
@@ -323,10 +324,10 @@
 
 @media(max-width:960px){
     .serviciosContainer{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        width: 94%;
-        margin: 3%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
     .servicio{
         display: flex;
